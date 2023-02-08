@@ -1,0 +1,60 @@
+//MATEMÁTICA
+void main() {
+  
+//Atividade Um
+{
+  var raio = 100.64;
+  var area = 3.14159 * (raio * raio);
+  var areaQuatro = area.toStringAsFixed(4);
+  print ('ATIVIDADE UM');
+  print ('A area do circulo e igual $areaQuatro');
+}
+  
+  
+//Atividade Dois
+{  
+  var chapa = 6;
+  var horaTrabalhada = 145;
+  var salarioHora = 15.55;
+  var salario = salarioHora * horaTrabalhada;
+  var salarioFinal = salario.toStringAsFixed(2);
+  print ('ATIVIDADE DOIS');
+  print ('Chapa = $chapa \nSalario = $salarioFinal');
+}
+
+
+//Atividade Três
+{
+  var nome = 'Joao';
+  var salarioFixo = 500.00;
+  var vendas = 1230.30;
+  var comissao = vendas * 0.15 ;
+  var salarioFinal = salarioFixo + comissao;
+  var salarioFinalFinal = salarioFinal.toStringAsFixed(2);
+  print ('ATIVIDADE TRES');
+  print ('$nome recebera RS $salarioFinal esse mes.');  
+}
+
+  
+//Atividade Quatro
+{  
+  var calor = 50;
+  var trabalho = 12;
+  var energiaInicial = 100;
+  var energiaFinal = (energiaInicial - trabalho) + calor;
+  print ('ATIVIDADE QUATRO');
+  print ('A energia final e de $energiaFinal J');
+}
+  
+  
+//Atividade Cinco
+{
+  var trabalho = 12;
+  var recebe = 23;
+  var conversao = (trabalho / recebe) * 100;
+  var conversaoFinal = conversao.toStringAsFixed(2);
+  print ('ATIVIDADE CINCO');
+  print ('Capacidade percentual de conversao do motor e de $conversaoFinal%.');
+}
+
+}
