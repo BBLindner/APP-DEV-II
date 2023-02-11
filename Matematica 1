@@ -4,10 +4,9 @@ void main() {
 //Atividade Um
 {
   var raio = 100.64;
-  var area = 3.14159 * (raio * raio);
-  var areaQuatro = area.toStringAsFixed(4);
+  var area = 3.1415 * (raio * raio);
   print ('ATIVIDADE UM');
-  print ('A area do circulo e igual $areaQuatro');
+  print ('A área do círculo é ${area.toStringAsFixed(4)}.');
 }
   
   
@@ -17,33 +16,31 @@ void main() {
   var horaTrabalhada = 145;
   var salarioHora = 15.55;
   var salario = salarioHora * horaTrabalhada;
-  var salarioFinal = salario.toStringAsFixed(2);
-  print ('ATIVIDADE DOIS');
-  print ('Chapa = $chapa \nSalario = $salarioFinal');
+  print ('\n\nATIVIDADE DOIS');
+  print ('Chapa = $chapa \nSalário = R\$${salario.toStringAsFixed(2)}');
 }
 
 
 //Atividade Três
 {
-  var nome = 'Joao';
+  var nome = 'João';
   var salarioFixo = 500.00;
   var vendas = 1230.30;
   var comissao = vendas * 0.15 ;
   var salarioFinal = salarioFixo + comissao;
-  var salarioFinalFinal = salarioFinal.toStringAsFixed(2);
-  print ('ATIVIDADE TRES');
-  print ('$nome recebera RS $salarioFinal esse mes.');  
+  print ('\n\nATIVIDADE TRÊS');
+  print ('$nome receberá R\$${salarioFinal.toStringAsFixed(2)} esse mês.');  
 }
 
-  
+
 //Atividade Quatro
 {  
   var calor = 50;
   var trabalho = 12;
   var energiaInicial = 100;
   var energiaFinal = (energiaInicial - trabalho) + calor;
-  print ('ATIVIDADE QUATRO');
-  print ('A energia final e de $energiaFinal J');
+  print ('\n\nATIVIDADE QUATRO');
+  print ('A energia final é de $energiaFinal\J.');
 }
   
   
@@ -52,9 +49,7 @@ void main() {
   var trabalho = 12;
   var recebe = 23;
   var conversao = (trabalho / recebe) * 100;
-  var conversaoFinal = conversao.toStringAsFixed(2);
-  print ('ATIVIDADE CINCO');
-  print ('Capacidade percentual de conversao do motor e de $conversaoFinal%.');
+  print ('\n\nATIVIDADE CINCO');
+  print ('A capacidade percentual de conversão do motor é de ${conversao.toStringAsFixed(2)}%.');
 }
-
 }
