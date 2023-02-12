@@ -55,7 +55,7 @@ void main() {
   num ladoC = 7;
       
   print('\n\nATIVIDADE TRÊS');
-  
+  print('Valores:\nLado A = $ladoA \nLado B = $ladoB \nLado C = $ladoC');
   if (ladoA*ladoA == ladoB*ladoB + ladoC*ladoC) {print('Triângulo Retângulo');}
   if (ladoA*ladoA > ladoB*ladoB + ladoC*ladoC) {print('Triângulo Obtusângulo');}
   if (ladoA*ladoA < ladoB*ladoB + ladoC*ladoC) {print('Triângulo Acutângulo');}
@@ -68,6 +68,13 @@ void main() {
   
 //Atividade Quatro
 {
+  var jogadorUm = 'par';
+  num jogadorUmN = 2;
+  var jogadorDois = 'ímpar';
+  num jogadorDoisN = 2;
   
+  print('\n\nATIVIDADE QUATRO');
+  if ((jogadorUmN+jogadorDoisN)%2==0 && jogadorUm=='par') {print('Jogador UM é o vencedor!');}
+  else {print('Jogador DOIS é o vencedor!');}
 }
 }
