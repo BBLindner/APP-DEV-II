@@ -1,0 +1,12 @@
+void main() {
+  double numero = 200;
+  print('[0]= $numero');
+  conta(numero);
+}
+
+void conta(double numero) {
+  for (double i = 1; i < 100; i++) {
+    double calculo = numero /= 2;
+    print('[$i] = $calculo');
+  }
+}
