@@ -1,6 +1,0 @@
-package com.viben.viben
-
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity: FlutterActivity() {
-}
